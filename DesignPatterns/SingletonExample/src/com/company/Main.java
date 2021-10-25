@@ -10,6 +10,7 @@ public class Main {
         Projector proj1 = Projector.getInstance();
         proj.name = "Projector in room 1";
 
+
         System.out.println(proj1.name);
     }
 }
