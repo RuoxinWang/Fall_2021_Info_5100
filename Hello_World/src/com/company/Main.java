@@ -3,7 +3,6 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        //function第一个字母小写，其他首字母大写
         int numOfStudentsInClass = 62;
         int max = Integer.MAX_VALUE;
         int min = Integer.MIN_VALUE;
