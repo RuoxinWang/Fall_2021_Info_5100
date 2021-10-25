@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DesignPatterns.iml" filepath="$PROJECT_DIR$/.idea/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultionExample/MultionExample.iml" filepath="$PROJECT_DIR$/MultionExample/MultionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PubSubExample/PubSubExample.iml" filepath="$PROJECT_DIR$/PubSubExample/PubSubExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonExample/SingletonExample.iml" filepath="$PROJECT_DIR$/SingletonExample/SingletonExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadExample/ThreadExample.iml" filepath="$PROJECT_DIR$/ThreadExample/ThreadExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Twitter/Twitter.iml" filepath="$PROJECT_DIR$/Twitter/Twitter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

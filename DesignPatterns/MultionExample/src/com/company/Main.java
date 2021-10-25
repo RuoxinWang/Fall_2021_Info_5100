@@ -1,0 +1,11 @@
+package com.company;
+
+import java.util.HashMap;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Projector proj1 = Projector.getProject(1);
+        Projector proj2 = Projector.getProject()
+    }
+}
