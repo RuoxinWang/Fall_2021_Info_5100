@@ -9,39 +9,38 @@ public class Publisher {
 
     private HashMap<Integer, String> grades;
 
-    private String name;
-    private String className;
-
     public String getName() {
         return name;
     }
+
+    private String name;
+    private String className;
 
     public Publisher(String name, String className){
         students = new ArrayList<>();
         grades = new HashMap<>();
         this.name = name;
         this.className = className;
-
     }
 
     public void NotifyGrades(){
 
-        for (Student student: students) {
+        for (Student student : students) {
             student.getGrades(this, this.className, grades.get(student.getStudentID()));
         }
     }
 
-    public void addGrade(Integer studentID, String grade){
+    public  void addGrades(Integer studentID, String grade){
         grades.put(studentID, grade);
     }
 
-    public void addSubscribe(Student student){
+    public void addSubscriber(Student student){
         if(!students.contains(student)){
             students.add(student);
         }
     }
 
-    public void removeSubscribe(Student student){
+    public void removeSubscriber(Student student){
         if(students.contains(student)){
             students.remove(student);
         }

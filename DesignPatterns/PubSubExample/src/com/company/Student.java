@@ -1,6 +1,6 @@
 package com.company;
 
-public class Student implements ISubscriber{
+public class Student {
 
     private Integer studentID;
     private String name;
@@ -18,18 +18,16 @@ public class Student implements ISubscriber{
         this.studentID = studentID;
     }
 
-    @Override
     public void getGrades(Publisher publisher, String className, String grade) {
-        System.out.println(publisher.getName() + "Has Published grades for class" + className);
-        System.out.println(this.name + "Grade in "+ className + " is " + grade);
-
+        System.out.println(publisher.getName() + " Has Published grades for class " +  className);
+        System.out.println( this.name + " grade in " + className + " is " + grade);
     }
 
     public void subscribe(Publisher publisher){
-        publisher.addSubscribe(this);
+        publisher.addSubscriber(this);
     }
 
-    public void unsubscribe(Publisher publisher){
-        publisher.removeSubscribe(this);
+    public void UnSubscribe(Publisher publisher){
+        publisher.removeSubscriber(this);
     }
 }
