@@ -14,7 +14,6 @@ public class Main {
         Person Sara = new Person("Sara");
         Person John = new Person("John");
 
-
         Ashish.follow(Trump);
         Tom.follow(Trump);
         Sara.follow(Trump);
