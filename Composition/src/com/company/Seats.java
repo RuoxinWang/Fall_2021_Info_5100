@@ -7,6 +7,5 @@ public class Seats {
     public Seats(int numSeats, boolean hasLeatherSeats){
         this.numSeats = numSeats;
         this.hasLeatherSeats = hasLeatherSeats;
-
     }
 }

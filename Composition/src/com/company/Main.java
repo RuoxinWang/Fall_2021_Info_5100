@@ -3,11 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    Car mercedes = new Car("Mercedes","C300",17,true, 5, true);
-        Car kia = new Car("Kia","Soul", 15, true, 5, false);
-        Car tesla = new Car("Tesla", "Roadster",17,true,2, false);
+        Car mercedes = new Mercedes("C300" , true, 5, true);
+        Car kia = new Kia(" Sedona", true, 5, false);
+        Car tesla = new Tesla( "Roadster", true, 2, false);
 
+        mercedes.getGearBox().setCurrentGear(1);
+        System.out.println(mercedes.getSpeed());
 
-        System.out.println(mercedes.modelName);
+        kia.getGearBox().setCurrentGear(2);
+        System.out.println(kia.getSpeed());
+
     }
 }
