@@ -1,32 +1,11 @@
 package com.company;
-//enum animalType{mammal,fish, reptile}
+enum AnimalType { mammal, fish, reptile};
+
 public class Animal {
 
-    //public animalType type;
+    public String animalType;
 
-    //private String animalType;
-    private String name;
-    private int age;
-    private double weight;
-    private boolean isMammal;
-    private boolean isVegetarian;
-
-    public Animal(String name, int age, double weight, boolean isMammal, boolean isVegetarian){
-        this.name = name;
-        this.age = age;
-        this.weight = weight;
-        this.isMammal = isMammal;
-        this.isVegetarian = isVegetarian;
-    }
-
-
-    public void eat(){
-        System.out.println("111");
-    }
-
-    public void breathe(){
-        System.out.println("222");
-    }
+    public AnimalType type;
 
     public String getName() {
         return name;
@@ -47,4 +26,32 @@ public class Animal {
     public boolean isVegetarian() {
         return isVegetarian;
     }
+
+    private String name;
+    private int age;
+    private double weight;
+    private boolean isMammal;
+    private boolean isVegetarian;
+
+
+    public Animal(String name, int age, double weight, boolean isMammal, boolean isVegetarian){
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.isMammal = isMammal;
+        this.isVegetarian = isVegetarian;
+    }
+
+
+    public void eat(){
+        System.out.println("Animal Eat function called give me tasty treats");
+    }
+
+
+    public void breathe(){
+        System.out.println("Animal breathe function called give me tasty treats");
+
+    }
+
+
 }
